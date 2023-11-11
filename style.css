@@ -36,6 +36,7 @@ header p {
   text-align: center;
 }
 
+/* Main */
 main {
   flex: 1;
 }
@@ -59,6 +60,71 @@ div.each-nav {
   align-items: center;
 }
 
+#charts {
+  display: flex;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 33%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url("path/to/avatar.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.avatar i {
+  font-size: 24px;
+  color: #333;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bullet-points {
+  margin-top: 20px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .circle {
+    font-size: 1rem;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .avatar i {
+    font-size: 20px;
+  }
+}
+
+/* Footer */
 footer {
   height: 5vh;
   background-color: lightblue;
