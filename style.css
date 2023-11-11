@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  height: 30vh;
+  background-color: aliceblue;
+}
+
+nav{
+  height: 10vh;
+  background-color: lightcoral;
+}
