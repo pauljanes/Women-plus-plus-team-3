@@ -7,7 +7,30 @@ body {
   background-color: aliceblue;
 }
 
-nav{
+nav.navigation {
   height: 10vh;
-  background-color: lightcoral;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+div.each-nav {
+  height: 100%;
+  width: auto;
+  min-width: 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+section.chart {
+  background-color: #f9f9f9;
+  height: 60vh;
+}
+
+
+
