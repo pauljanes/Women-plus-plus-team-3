@@ -3,6 +3,10 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
 using System.Text.Json;
+using System;
+using System.IO;
+using Google.Apis.Sheets.v4.Data;
+using System.Collections.Generic;
 
 namespace WebAPI_dev.Services.SurveyService
 {
@@ -42,12 +46,19 @@ namespace WebAPI_dev.Services.SurveyService
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<GetSurveyResponseDto>> GetDataFromSurveySheet(int id)
+        public async Task<ServiceResponse<GetSurveyResponseDto>> GetDataFromSurveySheet(string key)
         {
-            Survey survey = new Survey { Id = 1, Name = "", Summary = "" };
 
-            // Load credentials from the JSON file
-            var credential = GoogleCredential.FromFile("surveyCredential.json")
+
+            // Replace with the path to your credentials JSON file
+            string credentialsPath = "Files/womenplusplus-3efa728a100f.json";
+
+            // Specify the spreadsheet ID and range
+            string spreadsheetId = "1QLDdgUndRdgYSJfT9Ynn6a8voyHcwGg1cHl65Wdiq5Y";
+            string range = "'Form Responses 1'!A:E";
+
+            // Authenticate using the credentials file
+            var credential = GoogleCredential.FromFile(credentialsPath)
                 .CreateScoped("https://www.googleapis.com/auth/spreadsheets");
 
             // Create Google Sheets API service
@@ -57,10 +68,6 @@ namespace WebAPI_dev.Services.SurveyService
                 ApplicationName = "WomenPlusPlus",
             });
 
-            // Specify the spreadsheet ID and range
-            string spreadsheetId = "your-spreadsheet-id";
-            string range = "Sheet1!A1:B10"; // Update with your actual sheet and range
-
             // Make the request to retrieve values
             var request = service.Spreadsheets.Values.Get(spreadsheetId, range);
             var response = request.Execute();
@@ -68,15 +75,13 @@ namespace WebAPI_dev.Services.SurveyService
             // Access the values in the response
             var values = response.Values;
 
-            //Add response into survey summary - parse json 
+            //Add response into survey summary - parse json           
+            Survey survey = new Survey { Id = 1, Key = "1QLDdgUndRdgYSJfT9Ynn6a8voyHcwGg1cHl65Wdiq5Y", Name = "Form Responses 1" };
             survey.Summary = JsonSerializer.Serialize(values);
 
             var serviceResponse = new ServiceResponse<GetSurveyResponseDto>();
             serviceResponse.Data = _mapper.Map<GetSurveyResponseDto>(survey);
             return serviceResponse;
-
         }
-
-
     }
 }

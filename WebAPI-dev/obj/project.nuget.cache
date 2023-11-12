@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MhFX5Xvv1yXopW1autUvw/AWj1XXI1tnZwPs1zo2xb9N6Ht5W5m+wfkPijUAeh6UaByEnf9YxnTTi24knw0yuQ==",
+  "dgSpecHash": "mqRe+a0I3U5JNImqEzfrxM/vKY5TJOJwruxZ4Bc7ZqMkzOBW8UEfMMcHCfy2fX43UyJ2DrBtld93M8ZrtiSY/Q==",
   "success": true,
-  "projectFilePath": "/Users/albert/Documents/VisualStudio/Projects/WebAPI-dev/WebAPI-dev.csproj",
+  "projectFilePath": "/Users/albert/Desktop/WebAPI-dev/Women-plus-plus-team-3/WebAPI-dev/WebAPI-dev.csproj",
   "expectedPackageFiles": [
     "/Users/albert/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/albert/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

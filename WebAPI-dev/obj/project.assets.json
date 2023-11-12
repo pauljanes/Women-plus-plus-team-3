@@ -1069,6 +1069,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Google.Apis.Auth >= 1.63.0",
       "Google.Apis.Sheets.v4 >= 1.63.0.3148",
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1080,11 +1081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/albert/Documents/VisualStudio/Projects/WebAPI-dev/WebAPI-dev.csproj",
+      "projectUniqueName": "/Users/albert/Desktop/WebAPI-dev/Women-plus-plus-team-3/WebAPI-dev/WebAPI-dev.csproj",
       "projectName": "WebAPI-dev",
-      "projectPath": "/Users/albert/Documents/VisualStudio/Projects/WebAPI-dev/WebAPI-dev.csproj",
+      "projectPath": "/Users/albert/Desktop/WebAPI-dev/Women-plus-plus-team-3/WebAPI-dev/WebAPI-dev.csproj",
       "packagesPath": "/Users/albert/.nuget/packages/",
-      "outputPath": "/Users/albert/Documents/VisualStudio/Projects/WebAPI-dev/obj/",
+      "outputPath": "/Users/albert/Desktop/WebAPI-dev/Women-plus-plus-team-3/WebAPI-dev/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/albert/.nuget/NuGet/NuGet.Config"
@@ -1115,6 +1116,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "Google.Apis.Auth": {
+            "target": "Package",
+            "version": "[1.63.0, )"
           },
           "Google.Apis.Sheets.v4": {
             "target": "Package",
