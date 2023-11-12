@@ -15,6 +15,7 @@ nav.navigation {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 5px;
 }
 
 div.each-nav {
@@ -23,7 +24,7 @@ div.each-nav {
   min-width: 5vw;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   cursor: pointer;
 }
