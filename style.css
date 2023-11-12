@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  letter-spacing: 1px;
 }
 
 header {
@@ -24,13 +25,13 @@ header {
   justify-content: center;
   color: #fff;
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h1 {
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 header p {
@@ -52,13 +53,13 @@ nav.navigation {
   align-items: center;
   padding-bottom: 5px;
   z-index: 10;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .make-sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-
 }
 
 div.each-nav {
@@ -72,15 +73,25 @@ div.each-nav {
   cursor: pointer;
 }
 
-div.each-nav:hover svg{
+div.each-nav:hover svg {
   height: 3em;
+}
+
+#select {
+  background: white;
+  padding: 30px;
+  text-align: right;
+}
+#select select {
+  font-size: 16px;
+  padding: 5px;
 }
 
 section.chart {
   display: flex;
   height: 50vh;
-  background-color: aliceblue;
-  margin-bottom: 5px;
+  background-color: white;
+  margin-bottom: 1px;
   padding: 10px 0;
 }
 
@@ -90,7 +101,6 @@ section#impact {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: stretch;
-
 }
 
 section#funding {
@@ -106,10 +116,65 @@ div.grant-container {
   width: 35vw;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 10px;
-
 }
 .grant-container p {
   padding: 5px;
+}
+
+section#event {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+section#partners {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+section#report {
+  height: 20vh;
+}
+
+section#about {
+  height: 30vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+section#about h3 {
+  font-size: 20px;
+  margin: 0 10%;
+  padding-top: 20px;
+}
+
+section#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+section#report div {
+  color: #293745;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+section#report button {
+  background-color: #3cacd7;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 /* Footer */
@@ -120,8 +185,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
-  letter-spacing: 1px;
 }
