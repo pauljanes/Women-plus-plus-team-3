@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "MhFX5Xvv1yXopW1autUvw/AWj1XXI1tnZwPs1zo2xb9N6Ht5W5m+wfkPijUAeh6UaByEnf9YxnTTi24knw0yuQ==",
+  "success": true,
+  "projectFilePath": "/Users/albert/Documents/VisualStudio/Projects/WebAPI-dev/WebAPI-dev.csproj",
+  "expectedPackageFiles": [
+    "/Users/albert/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/albert/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/albert/.nuget/packages/google.apis/1.63.0/google.apis.1.63.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/google.apis.auth/1.63.0/google.apis.auth.1.63.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/google.apis.core/1.63.0/google.apis.core.1.63.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/google.apis.sheets.v4/1.63.0.3148/google.apis.sheets.v4.1.63.0.3148.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/albert/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/albert/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
+    "/Users/albert/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512",
+    "/Users/albert/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
