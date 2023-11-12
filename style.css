@@ -17,7 +17,7 @@ body {
 
 header {
   height: 30vh;
-  background: url("../images/women.jpeg") no-repeat center/cover;
+  background: url("./images/women.jpeg") no-repeat center/cover;
   /* Center Header Text */
   display: flex;
   align-items: center;
