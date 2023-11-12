@@ -44,12 +44,20 @@ main {
 }
 
 nav.navigation {
+  height: 11vh;
   background-color: white;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 5px;
+}
+
+.make-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
 }
 
 div.each-nav {
@@ -67,8 +75,11 @@ div.each-nav:hover svg{
   height: 3em;
 }
 
-#charts {
+section.chart {
   display: flex;
+  height: 50vh;
+  background-color: aliceblue;
+  margin-bottom: 10px;
 }
 
 /* Footer */
