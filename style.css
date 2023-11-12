@@ -51,6 +51,7 @@ nav.navigation {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 5px;
+  z-index: 10;
 }
 
 .make-sticky {
@@ -79,7 +80,36 @@ section.chart {
   display: flex;
   height: 50vh;
   background-color: aliceblue;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+
+section#impact {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+}
+
+section#funding {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.grant-container {
+  height: 35vh;
+  width: 35vw;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+
+}
+.grant-container p {
+  padding: 5px;
 }
 
 /* Footer */
