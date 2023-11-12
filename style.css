@@ -23,9 +23,13 @@ div.each-nav {
   min-width: 5vw;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+
+div.each-nav:hover svg{
+  height: 3em;
 }
 
 section.chart {
