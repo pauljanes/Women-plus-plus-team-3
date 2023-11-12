@@ -82,6 +82,15 @@ section.chart {
   margin-bottom: 10px;
 }
 
+section#impact {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+}
+
 /* Footer */
 footer {
   height: 5vh;
