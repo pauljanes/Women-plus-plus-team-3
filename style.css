@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: auto;
 }
 #banner {
   height: 30vh;
@@ -24,7 +25,7 @@ div.each-nav {
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
-
+  cursor: pointer;
 }
 
 section.chart {
