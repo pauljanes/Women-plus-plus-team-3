@@ -91,7 +91,7 @@ section.chart {
   display: flex;
   height: 50vh;
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   padding: 10px 0;
 }
 
@@ -135,6 +135,10 @@ section#partners {
   overflow: hidden;
 }
 
+section#report {
+  height: 20vh;
+}
+
 section#about {
   height: 30vh;
   flex-direction: column;
@@ -153,6 +157,24 @@ section#about p {
   font-size: 18px;
   line-height: 1.5;
   padding-top: 20px;
+}
+
+section#report div {
+  color: #293745;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+section#report button {
+  background-color: #3cacd7;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 /* Footer */

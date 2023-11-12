@@ -47,7 +47,7 @@ function drawImpactTrackingCharts() {
     is3D: true,
     pieStartAngle: 0,
     titleTextStyle: {
-      fontSize: 16,
+      fontSize: 18,
     },
   }
   var options3 = {
@@ -57,7 +57,7 @@ function drawImpactTrackingCharts() {
     is3D: true,
     pieStartAngle: 0,
     titleTextStyle: {
-      fontSize: 16,
+      fontSize: 18,
     },
   }
 
@@ -89,7 +89,7 @@ function drawChart() {
     title: 'Percentage of Women who Participated',
     colors: ['#347DEB', '#DCDFE3'],
     titleTextStyle: {
-      fontSize: 16,
+      fontSize: 18,
       letterSpacing: 1,
     },
   }
@@ -97,10 +97,10 @@ function drawChart() {
   var options2 = {
     is3D: true,
     legend: 'none',
-    title: 'Percentage of participants that landed a new job within 3 months',
+    title: 'Participants looking for a new job',
     colors: ['#347DEB', '#DCDFE3'],
     titleTextStyle: {
-      fontSize: 16,
+      fontSize: 18,
       letterSpacing: 1,
     },
   }
