@@ -10,4 +10,6 @@
 4. This repository **must** be open source (and licensed) in order to submit
 5. Add the tag `hack-n-lead` to the repo description
 
-
+## Website
+The site is deployed to GitHub pages.
+The live link can be found here: https://pauljanes.github.io/Women-plus-plus-team-3/
