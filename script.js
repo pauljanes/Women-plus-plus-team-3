@@ -37,21 +37,31 @@ function drawImpactTrackingCharts() {
           colors: ['#347deb', '#dcdfe3'], // blue, grey,
           legend: 'none',
           is3D: true,
-          pieStartAngle: 0
+          pieStartAngle: 0,
+          titleTextStyle : {
+            fontSize: 16
+          }
       };
       var options2 = {
-        title: 'Participants that expanded their networks with active connections',
+          title: 'Participants that expanded their networks',
           colors: ['#347deb', '#dcdfe3'], // blue, grey,
           legend: 'none',
           is3D: true,
-          pieStartAngle: 0
+          pieStartAngle: 0,
+          titleTextStyle : {
+            fontSize: 16
+          }
       };
       var options3 = {
         title: 'Participants that acquired new skills',
           colors: ['#347deb', '#dcdfe3'], // blue, grey,
           legend: 'none',
           is3D: true,
-          pieStartAngle: 0
+          pieStartAngle: 0,
+          titleTextStyle : {
+            fontSize: 16
+          }
+        
       };
 
       var chart1 = new google.visualization.PieChart(document.getElementById('impact-chart1'));
